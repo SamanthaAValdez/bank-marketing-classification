@@ -2,7 +2,7 @@
 This repository contains a Jupyter Notebook comparing **Logistic Regression** and **Decision Tree** on the Bank Marketing dataset from UCI.  
 
 ### Notebook
-- `bank_marketing_classification.ipynb`: The main notebook with preprocessing, model training, evaluation, and visualizations.
+- `BankMarketing_Classification_Samantha_Moataz.ipynb`: The main notebook with preprocessing, model training, evaluation, and visualizations.
 
 ### How to run
 - Open the notebook in **Google Colab** or **Jupyter Notebook**.
