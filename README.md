@@ -13,35 +13,35 @@ The goal is to predict whether a bank client will subscribe to a term deposit af
 
 ## Dataset
 
-- File: `bank-full.csv`  
-- Folder: `data/`  
+- File: 'bank-full.csv'  
+- Folder: 'data/'  
 - Source: [UCI ML Repository](https://archive-beta.ics.uci.edu/dataset/222/bank%2Bmarketing?utm_source=chatgpt.com)  
-- Description: Client and campaign features; target variable `y` (1 = yes, 0 = no)  
-- Notes: Dataset is imbalanced (~88% no, ~12% yes). A binary feature `pdays_never` indicates clients never contacted.
+- Description: Client and campaign features; target variable 'y' (1 = yes, 0 = no)  
+- Notes: Dataset is imbalanced (~88% no, ~12% yes). A binary feature 'pdays_never' indicates clients never contacted.
 
 ---
 
 ## Notebook
 
-- File: `notebooks/BankMarketing_Classification_Samantha.ipynb`  
-- Open directly in Google Colab: [Open in Colab](https://colab.research.google.com/github/SamanthaAValdez/bank-marketing-classification/blob/main/notebooks/BankMarketing_Classification_Samantha_Moataz.ipynb)
+- File: 'notebooks/BankMarketing_Classification_Samantha.ipynb'  
+- Open directly in Google Colab: [Open in Colab]https://colab.research.google.com/github/SamanthaAValdez/bank-marketing-classification/blob/main/notebooks/BankMarketing_Classification_Samantha.ipynb
 
 ---
 
 ## Project Structure
 
-- `README.md` — This file with instructions and summary  
-- `data/bank-full.csv` — Dataset file  
-- `notebooks/BankMarketing_Classification_Samantha.ipynb` — Main notebook
+- 'README.md' — This file with instructions and summary  
+- 'data/bank-full.csv' — Dataset file  
+- 'notebooks/BankMarketing_Classification_Samantha.ipynb' — Main notebook
 
 ---
 
 ## Methodology & Steps
 
 1. **Data Cleaning & Preparation**  
-   - Drop `duration` column to avoid target leakage  
-   - Encode target `y` as 0/1  
-   - Create `pdays_never` feature  
+   - Drop 'duration' column to avoid target leakage  
+   - Encode target 'y' as 0/1  
+   - Create 'pdays_never' feature  
    - Separate numerical and categorical features
 
 2. **Preprocessing**  
@@ -53,8 +53,8 @@ The goal is to predict whether a bank client will subscribe to a term deposit af
    - Stratify by target variable
 
 4. **Modeling**  
-   - Logistic Regression (`max_iter=1000`)  
-   - Decision Tree Classifier (`random_state=42`)
+   - Logistic Regression ('max_iter=1000')  
+   - Decision Tree Classifier ('random_state=42')
 
 5. **Evaluation**  
    - Accuracy on test set  
@@ -65,8 +65,8 @@ The goal is to predict whether a bank client will subscribe to a term deposit af
 
 ## Results
 
-- Logistic Regression Accuracy: ~0.895  
-- Decision Tree Accuracy: ~0.833  
+- Logistic Regression Accuracy: → 0.895  
+- Decision Tree Accuracy: → 0.833  
 
 The linear model performed better, suggesting the feature-target relationship is mostly linear. The Decision Tree captured more complex patterns but may slightly overfit.
 
