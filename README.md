@@ -23,7 +23,7 @@ The goal is to predict whether a bank client will subscribe to a term deposit af
 
 ## Notebook
 
-- File: `notebooks/BankMarketing_Classification_Samantha_Moataz.ipynb`  
+- File: `notebooks/BankMarketing_Classification_Samantha.ipynb`  
 - Open directly in Google Colab: [Open in Colab](https://colab.research.google.com/github/SamanthaAValdez/bank-marketing-classification/blob/main/notebooks/BankMarketing_Classification_Samantha_Moataz.ipynb)
 
 ---
@@ -32,7 +32,7 @@ The goal is to predict whether a bank client will subscribe to a term deposit af
 
 - `README.md` — This file with instructions and summary  
 - `data/bank-full.csv` — Dataset file  
-- `notebooks/BankMarketing_Classification_Samantha_Moataz.ipynb` — Main notebook
+- `notebooks/BankMarketing_Classification_Samantha.ipynb` — Main notebook
 
 ---
 
