@@ -24,7 +24,8 @@ The goal is to predict whether a bank client will subscribe to a term deposit af
 ## Notebook
 
 - File: 'notebooks/BankMarketing_Classification_Samantha.ipynb'  
-- Open directly in Google Colab: [Open in Colab]https://colab.research.google.com/github/SamanthaAValdez/bank-marketing-classification/blob/main/notebooks/BankMarketing_Classification_Samantha.ipynb
+-- Open directly in Google Colab: [Open in Colab](https://colab.research.google.com/github/SamanthaAValdez/bank-marketing-classification/blob/main/notebooks/BankMarketing_Classification_Samantha.ipynb)
+
 
 ---
 
